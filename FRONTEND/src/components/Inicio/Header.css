@@ -1,0 +1,61 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-buttons .btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #ff6347;
+    color: #fff;
+    margin-bottom: 20px ;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .hero-section {
+    background-image: url('../aaa.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta real de tu imagen */
+    background-size: 70% 100%; /* Ajusta el tamaño a 100% del ancho y 50% de la altura del contenedor */
+    background-position: right;
+    background-repeat: no-repeat;
+    color: black;
+    padding: -5rem ;
+    text-align: left;
+  }

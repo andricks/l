@@ -1,0 +1,38 @@
+.main-content {
+  width: 99vw; /* Ancho del 100% del viewport */
+  height: 100vh; /* Alto del 100% del viewport */
+  margin: 0px  0px 0px -230px  ; 
+   /* Eliminar márgenes */
+  padding: 0rem;
+/* Incluir padding en el ancho */
+}
+
+/* Resto de tus estilos... */
+.hero-section {
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+  margin-left: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  margin-left: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons .btn {
+  margin-left: 30px;
+  margin-right: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0px;
+  text-decoration: none;
+  margin-bottom: 30px ;
+}
+

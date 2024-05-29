@@ -1,0 +1,76 @@
+/* LoginForm.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #df0000;
+  color: #000000;
+  background-image: url('../img/autologin.jpg');
+  background-size: cover; /* Para que la imagen de fondo cubra toda la pantalla */
+  width: 98.7vw; /* Ancho del 100% del viewport */
+  height: 100vh; /* Alto del 100% del viewport */
+  margin: 0px  0px 0px -225px  ; 
+   /* Eliminar márgenes */
+  padding: 0rem;
+  
+}
+
+.login-box {
+  
+  background-color: rgba(20, 20, 20, 0.7); /* Color oscuro semi-transparente */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 100px rgba(143, 140, 140, 0.5);
+  width:90%; /* Ajuste para pantallas más grandes */
+  max-width: 350px; /* Aumentar el ancho máximo para un mejor diseño */
+  height: 100vh;
+  
+  /* Hacer que el fondo de la imagen sea semi-transparente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ffffff;
+   /* Cambiar el color del texto para que sea visible en la imagen de fondo */
+}
+
+.input {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #ffffff;
+
+       /* Cambiar el color del texto para que sea visible en la imagen de fondo */
+}
+
+.button {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c70039;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+/* Media query para ajustar el tamaño del formulario en dispositivos más pequeños */
+@media (max-width: 768px) {
+  .login-box {
+    width: 150%;
+    padding: 20px;
+  }
+}

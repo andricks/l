@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.logout-btn {
+  margin-bottom: 20px;
+}
+
+.options-menu {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.options-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.options-menu ul li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.formulario-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formulario-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario-container button:hover {
+  background-color: #0056b3;
+}
